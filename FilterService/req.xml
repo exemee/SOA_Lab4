@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://soa/lab/filter">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:filterOrgsByTypeRequest>
+            <gs:type>GOVERNMENT</gs:type>
+        </gs:filterOrgsByTypeRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
